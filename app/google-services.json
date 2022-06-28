@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "564155005360",
+    "project_id": "tbctask5",
+    "storage_bucket": "tbctask5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564155005360:android:e3a2f82af4869532813e75",
+        "android_client_info": {
+          "package_name": "com.example.tbctask5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564155005360-8josulv21htrpvioj6c0h73bd3jbu9li.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfGAIzZdYi80F3A70XH4yV6ibHonQXB8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564155005360-8josulv21htrpvioj6c0h73bd3jbu9li.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

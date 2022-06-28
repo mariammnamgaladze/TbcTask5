@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loggedOutFragment">
+
+    <fragment
+        android:id="@+id/loggedOutFragment"
+        android:name="com.example.tbctask5.LoggedOutFragment"
+        android:label="fragment_logged_out"
+        tools:layout="@layout/fragment_logged_out" >
+        <action
+            android:id="@+id/action_loggedOutFragment_to_logInFragment"
+            app:destination="@id/logInFragment" />
+        <action
+            android:id="@+id/action_loggedOutFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/logInFragment"
+        android:name="com.example.tbctask5.LogInFragment"
+        android:label="fragment_log_in"
+        tools:layout="@layout/fragment_log_in" >
+        <action
+            android:id="@+id/action_logInFragment_to_loggedOutFragment"
+            app:destination="@id/loggedOutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.tbctask5.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_loggedOutFragment"
+            app:destination="@id/loggedOutFragment" />
+        <action
+            android:id="@+id/action_registerFragment_to_secondRegisterFragment"
+            app:destination="@id/secondRegisterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondRegisterFragment"
+        android:name="com.example.tbctask5.SecondRegisterFragment"
+        android:label="fragment_second_register"
+        tools:layout="@layout/fragment_second_register" >
+        <action
+            android:id="@+id/action_secondRegisterFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+</navigation>
